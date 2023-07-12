@@ -3,7 +3,7 @@ import Feature from './Feature.js';
 
 function WhatGPT4() {
     return (
-        <div id='wgpt4'>
+        <section id='wgpt4'>
             <div className='whatgpt4FeatureTop'>
                 <Feature 
                     title='What is GPT-4'
@@ -30,7 +30,7 @@ function WhatGPT4() {
                     text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
                 />
             </div>
-        </div>
+        </section>
     );
 };
 

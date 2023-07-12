@@ -3,6 +3,7 @@ import Navbar from './Navbar.js';
 import Header from './Header.js';
 import Brand from './Brand.js';
 import WhatGPT4 from './WhatGPT4.js';
+import Functions from './Functions.js';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 </div>
             <Brand />
             <WhatGPT4 />
+            <Functions />
             {/* <Possibility />
             <CTA />
             <Blog />
