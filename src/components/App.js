@@ -1,12 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar.js';
+import Header from './Header.js';
 
 function App() {
     return (
         <div classNmae='App'>
             <div className='gradient_bg'>
                 <Navbar />
-                {/* <Header /> */}
+                <Header />
             </div>
             {/* <Brand />
             <WhatGPT4 />
