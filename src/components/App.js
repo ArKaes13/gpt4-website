@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Navbar.js';
 import Header from './Header.js';
 import Brand from './Brand.js';
+import WhatGPT4 from './WhatGPT4.js';
 
 function App() {
     return (
@@ -9,11 +10,10 @@ function App() {
             <div className='gradient_bg'>
                 <Navbar />
                 <Header />
-            </div>
+                </div>
             <Brand />
-            {/* <WhatGPT4 />
-            <Features />
-            <Possibility />
+            <WhatGPT4 />
+            {/* <Possibility />
             <CTA />
             <Blog />
             <Footer /> */}
