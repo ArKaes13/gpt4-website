@@ -4,7 +4,7 @@ import ai from '../images/ai.png';
 
 function Header() {
     return (
-        <div id='home'>
+        <header id='home'>
             <div className='headerContent'>
                 <h1 className='gradient_text'>
                     Let's build something amazing with GPT-4 OpenAI
@@ -22,7 +22,7 @@ function Header() {
             <div className='headerImage'>
                 <img src={ai} alt='ai' />
             </div>
-        </div>
+        </header>
     );
 };
 

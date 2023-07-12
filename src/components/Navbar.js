@@ -17,7 +17,7 @@ function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <div className='navbarContainer'>
+        <nav className='navbarContainer'>
             <div className='navbarLinksContainer'>
                 <div className='navbarLogo'>
                     <p>GPT-4</p>
@@ -36,7 +36,7 @@ function Navbar() {
                     : <RiMenu3Line color='#fff' size={27} onClick={ () => setToggleMenu(true)} />
                 }
                 {toggleMenu && (
-                    <div className='navbarMenuContainer scale-up-center'>
+                    <nav className='navbarMenuContainer scale-up-center'>
                         <div className='navbarMenuContainerLinks'>
                             <Menu />
                             <div className='navbarMenuContainerLinksSign'>
@@ -44,10 +44,10 @@ function Navbar() {
                                 <button>Sign Up</button>
                             </div>
                         </div>
-                    </div>
+                    </nav>
                 )}
             </div>
-        </div>
+        </nav>
     )
 }
 

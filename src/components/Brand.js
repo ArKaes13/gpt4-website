@@ -7,7 +7,7 @@ import shopify from '../images/shopify.png';
 
 function Brand() {
     return (
-        <div className='brandContainer'>
+        <section className='brandContainer'>
             <div>
                 <img src={google} alt='google' />
             </div>
@@ -23,7 +23,7 @@ function Brand() {
             <div>
                 <img src={shopify} alt='shopify' />
             </div>
-        </div>
+        </section>
     );
 };
 
