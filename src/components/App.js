@@ -1,9 +1,20 @@
 import React from 'react';
+import Navbar from './Navbar.js';
 
 function App() {
     return (
-        <div>
-            <h1>Hello world</h1>
+        <div classNmae='App'>
+            <div className='gradient_bg'>
+                <Navbar />
+                {/* <Header /> */}
+            </div>
+            {/* <Brand />
+            <WhatGPT4 />
+            <Features />
+            <Possibility />
+            <CTA />
+            <Blog />
+            <Footer /> */}
         </div>
     )
 }

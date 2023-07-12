@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,4 +9,184 @@
 
 html {
     font-size: 10px;
+    font-family: 'Manrope', sans-serif;
+}
+
+body {
+    background: #040c18;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.gradient_bg {
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+
+.gradient_text {
+    background: linear-gradient(89.97deg, #ae67fe 1.84%, #f49867 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/* ----------Navbar---------- */
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem 9.6rem;
+    color: white;
+}
+
+.navbarLinksContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbarLogo {
+    margin: 0 3.2rem 0 0
+}
+
+.navbarLogo p {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbarLinks {
+    display: flex;
+    gap: 3rem;
+}
+
+.navbarSignIn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarLinks p,
+.navbarSignIn p,
+.navbarMenuContainer p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+.navbarSignIn p {
+    margin: 0 3rem 0 0;
+}
+
+.navbarSignIn button,
+.navbarMenuContainer button {
+    background: #ff4820;
+    border-radius: .5rem;
+    border: none;
+    padding: 1.2rem 2.8rem;
+    color: white;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+
+.navbarMenu {
+    margin: 0 0 0 1.6rem;
+    display: none;
+    position: relative;
+}
+
+.navbarMenu svg {
+    cursor: pointer;
+}
+
+.navbarMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: #031b34;
+    padding: 3.2rem;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    margin: 1.6rem;
+    min-width: 21rem;
+    border-radius: .5rem;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.navbarMenuContainer p {
+    margin: 1.6rem 0;
+}
+
+.navbarMenuContainerLinksSign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .navbarLinks {
+        display: none;
+    }
+
+    .navbarMenu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navbarContainer {
+        padding: 3.2rem 6.4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .navbarContainer {
+        padding: 3.2rem;
+    }
+
+    .navbarSignIn {
+        display: none;
+    }
+
+    .navbarMenuContainer {
+        top: 2rem;
+    }
+
+    .navbarMenuContainerLinksSign {
+        display: block;
+    }
 }
