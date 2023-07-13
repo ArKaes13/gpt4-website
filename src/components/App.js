@@ -4,6 +4,7 @@ import Header from './Header.js';
 import Brand from './Brand.js';
 import WhatGPT4 from './WhatGPT4.js';
 import Functions from './Functions.js';
+import OpenAI from './OpenAI.js';
 
 function App() {
     return (
@@ -15,8 +16,8 @@ function App() {
             <Brand />
             <WhatGPT4 />
             <Functions />
-            {/* <Possibility />
-            <CTA />
+            <OpenAI />
+            {/* <CTA />
             <Blog />
             <Footer /> */}
         </div>
