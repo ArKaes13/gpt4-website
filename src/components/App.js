@@ -6,6 +6,7 @@ import WhatGPT4 from './WhatGPT4.js';
 import Functions from './Functions.js';
 import OpenAI from './OpenAI.js';
 import CTA from './CTA.js';
+import Blog from './Blog.js';
 
 function App() {
     return (
@@ -19,8 +20,8 @@ function App() {
             <Functions />
             <OpenAI />
             <CTA />
-            {/* <Blog />
-            <Footer /> */}
+            <Blog />
+            {/* <Footer /> */}
         </div>
     )
 }
