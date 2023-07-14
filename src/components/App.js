@@ -7,6 +7,7 @@ import Functions from './Functions.js';
 import OpenAI from './OpenAI.js';
 import CTA from './CTA.js';
 import Blog from './Blog.js';
+import Footer from './Footer.js';
 
 function App() {
     return (
@@ -14,14 +15,14 @@ function App() {
             <div className='gradient_bg'>
                 <Navbar />
                 <Header />
-                </div>
+            </div>
             <Brand />
             <WhatGPT4 />
             <Functions />
             <OpenAI />
             <CTA />
             <Blog />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

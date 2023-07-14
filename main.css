@@ -836,3 +836,139 @@ a {
         line-height: 4.2rem;
     }
 }
+
+/* ----------Footer---------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #031b34;
+    margin: 4rem 0 0 0;
+    padding: 4rem 4rem 0 4rem;
+}
+
+.footerHeader {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4.8rem;
+}
+
+.footerHeader h1 {
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 7.5rem;
+    text-align: center;
+    letter-spacing: -.1rem;
+}
+
+.footerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+    border: .1rem solid white;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 0 10rem 0;
+}
+
+.footerButton p {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    word-spacing: .2rem;
+    color: white;
+}
+
+.footerLinksContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.footerLinksContainer div {
+    width: 25rem;
+    margin: 1.6rem;
+}
+
+.footerLogo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogo span {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+}
+
+.footerLogo p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    max-width: 17rem;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinks h4 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0 0 1rem 0;
+}
+
+.footerLinks p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    margin: .8rem 0;
+    cursor: pointer;
+    max-width: 17rem;
+}
+
+.copyright {
+    margin: 3.2rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+.copyright p {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+    .footerHeader h1 {
+        font-size: 4.4rem;
+        line-height: 5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footerHeader h1 {
+        font-size: 3.4rem;
+        line-height: 4.2rem;
+    }
+
+    .footerLinks {
+        margin: 1.6rem 0;
+    }
+
+    .footerButton p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footerHeader h1 {
+        font-size: 2.7rem;
+        line-height: 3.8rem;
+    }
+}
