@@ -103,6 +103,11 @@ a {
     cursor: pointer;
 }
 
+.navbarLinks p:hover,
+.navbarSignIn p:hover {
+    transform: scale(1.10);
+}
+
 .navbarSignIn p {
     margin: 0 3rem 0 0;
 }
@@ -118,6 +123,10 @@ a {
     font-size: 1.8rem;
     line-height: 2.5rem;
     cursor: pointer;
+}
+
+.navbarSignIn button:hover {
+    transform: scale(1.10);
 }
 
 .navbarMenu {
@@ -251,6 +260,10 @@ a {
     cursor: pointer;
     outline: none;
     padding: 0 1.6rem;
+}
+
+.headerInput button:hover {
+    transform: scale(1.05);
 }
 
 .headerPeople {
@@ -398,6 +411,10 @@ a {
     line-height: 3rem;
     color: #ff8a71;
     cursor: pointer;
+}
+
+.whatgpt4Heading p:hover {
+    transform: scale(1.10);
 }
 
 .whatgpt4FeatureBottom {
@@ -681,6 +698,10 @@ a {
     outline: none;
     cursor: pointer;
     min-width: 15rem;
+}
+
+.ctaButton button:hover {
+    transform: scale(1.10);
 }
 
 @media screen and (max-width: 650px) {
