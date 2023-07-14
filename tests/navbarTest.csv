@@ -1,0 +1,28 @@
+For Commit,Module Name,Project Name,,,,
+3749dc8affd59f591eb0150deb0ce0fe6a43f302,Navbar,GPT-4 Website,,,,
+,,,,,,
+Test Scenario Description,Test Case Description,Test Steps,Test Data,Expected Result,Actual Result,Status
+Verify that navbar links navigate to different sections,Click each link on the navbar,1. Click ‘Home’,N/A,Links take user to each appropriate section,Links take user to each appropriate section,Pass
+,,2. Click ‘What is GPT?’,,,,
+,,3. Click ‘Features’,,,,
+,,4. Click ‘Open AI’,,,,
+,,5. Click ‘Library’,,,,
+,,,,,,
+Verify that navbar disappears and hamburger menu,Lower screen size until break,1. Lower screen size,,"Upon reaching breakpoint, navbar disappears and","Upon reaching breakpoint, navbar disappears and",Pass
+appears when style breakpoint is reached,point is reached,2. Breakpoint reached,,hamburger menu appears,hamburger menu appears,
+,,3. Navbar is gone,,,,
+,,4. Hamburger appeared,,,,
+,,,,,,
+Verify that hamburger menu links navigate to different,Click each link in hamburger,1. Click ‘Home’,N/A,Links take user to each appropriate section,Links take user to each appropriate section,Pass
+sections,menu,2. Click ‘What is GPT?’,,,,
+,,3. Click ‘Features’,,,,
+,,4. Click ‘Open AI’,,,,
+,,5. Click ‘Library’,,,,
+,,,,,,
+Verify that navbar link and button styles change,Hover over each link and button,1. Hover ‘Home’,,Links and button grow by 10% when hovered,Links and button grow by 10% when hovered,Pass
+when hovered over,,2. Hover ‘What is GPT?’,,,,
+,,3. Hover ‘Features’,,,,
+,,4. Hover ‘Open AI’,,,,
+,,5. Hover ‘Library’,,,,
+,,6. Hover ‘Sign In’,,,,
+,,7. Hover ‘Sign up’ button,,,,
