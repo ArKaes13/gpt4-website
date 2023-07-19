@@ -9,7 +9,7 @@ import blog05 from '../images/blog05.png';
 function getDate() {
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     const date = new Date();
-    const day = date.getDay();
+    const day = date.getDate();
     const month = months[date.getMonth()]
     const year = date.getFullYear();
 
